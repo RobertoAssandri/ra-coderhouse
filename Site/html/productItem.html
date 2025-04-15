@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Product Detail</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid p-0">
+                    <a href="#" class="nav-brand">Mi Tienda</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="../index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="cart.html" class="nav-link">Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="myAccount.html" class="nav-link">My Account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Product Detail</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="help.html" class="nav-link">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container main-content">
+        <div class="product-container">
+            <div class="product-gallery">
+                <img src="../images/producto.jpeg" class="product-main-img" alt="Figura de Acción He-Man">
+                <div class="product-thumbnails">
+                    <img src="../images/producto.jpeg" alt="Miniatura 1" class="thumbnail-img">
+                    <img src="../images/producto.jpeg" alt="Miniatura 2" class="thumbnail-img">
+                    <img src="../images/producto.jpeg" alt="Miniatura 3" class="thumbnail-img">
+                </div>
+            </div>
+            
+            <div class="product-info">
+                <h1 class="product-title">Figura de Acción He-Man</h1>
+                <p class="product-price">$299.99</p>
+                <p class="product-description">Figura de acción coleccionable de He-Man, el poderoso guerrero de Eternia. Fabricada con gran detalle y articulaciones móviles, viene con su hacha de batalla y es perfecta para coleccionistas y fans de la serie clásica.</p>
+                
+                <div class="product-actions">
+                    <select class="form-select quantity-select">
+                        <option>Cantidad: 1</option>
+                        <option>Cantidad: 2</option>
+                        <option>Cantidad: 3</option>
+                    </select>
+                    <button class="btn btn-danger">Agregar al carrito</button>
+                </div>
+                
+                <div class="product-features">
+                    <h5>Características:</h5>
+                    <ul>
+                        <li>Figura articulada de 18 cm</li>
+                        <li>Incluye hacha de batalla</li>
+                        <li>Material de alta calidad</li>
+                        <li>Edición coleccionable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3 class="footer-title">Enlaces rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="cart.html">Carrito</a></li>
+                        <li><a href="myAccount.html">Mi cuenta</a></li>
+                        <li><a href="help.html">Ayuda</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Categorías</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Figuras de acción</a></li>
+                        <li><a href="#">Coleccionables</a></li>
+                        <li><a href="#">Ediciones limitadas</a></li>
+                        <li><a href="#">Novedades</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Contacto</h3>
+                    <div class="footer-contact">
+                        <p>Calle Falsa 123, Ciudad</p>
+                        <p>Email: info@mitienda.com</p>
+                        <p>Teléfono: (123) 456-7890</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">F</a>
+                        <a href="#" class="social-icon">T</a>
+                        <a href="#" class="social-icon">I</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mi Tienda de Figuras. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
