@@ -1,0 +1,26 @@
+.account-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.account-sidebar {
+    flex: 1 1 300px;
+}
+
+.account-content {
+    flex: 3 1 600px;
+}
+
+.account-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.account-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
