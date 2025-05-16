@@ -1,15 +1,19 @@
+$primary-red: red;
+$primary-white : white;
+$primary-black: black;
+$default-h-size: 26px;
+
 h1, h2{
-    background-color: white;
-    color:black;
+    background-color: $primary-white;
+    color:$primary-black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: $default-h-size;
 }
 
 h3{
-    background-color: red;
-    color:white;
+    color:$primary-white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: $default-h-size;
 }
 
 * {
@@ -28,4 +32,9 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.default-list-item {
+    margin-bottom: 10px;
+    font-size: 14px;
 }

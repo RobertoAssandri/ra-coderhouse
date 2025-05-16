@@ -1,3 +1,6 @@
+@use "global.scss";
+@use "mixins.scss";
+
 .help-container {
     display: flex;
     flex-wrap: wrap;
@@ -40,4 +43,9 @@
     & p{
         color: red;
     }
+}
+
+.info-list {
+    @include mixins.reset-list-style;
+    & li { @extend .default-list-item; }
 }
