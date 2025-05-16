@@ -20,22 +20,24 @@
 }
 
 .cart-card-title {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     font-size: 18px;
     font-weight: bold;
+    padding: 0.5em;
+    border-radius: 5px;
 }
 
 .form-row {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     width: 100%;
 }
 
 .form-group {
     flex: 1 1 200px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     transition: all 0.3s ease;
 }
 

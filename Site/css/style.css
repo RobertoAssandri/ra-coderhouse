@@ -6,7 +6,6 @@ h1, h2 {
 }
 
 h3 {
-  background-color: red;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 26px;
@@ -28,6 +27,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.default-list-item, .info-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .nav-container {
@@ -320,22 +324,24 @@ body {
 }
 
 .cart-card-title {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   font-size: 18px;
   font-weight: bold;
+  padding: 0.5em;
+  border-radius: 5px;
 }
 
 .form-row {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   width: 100%;
 }
 
 .form-group {
   flex: 1 1 200px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   transition: all 0.3s ease;
 }
 
@@ -414,6 +420,11 @@ body {
   color: red;
 }
 
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .main-content {
   padding: 30px 0;
 }
